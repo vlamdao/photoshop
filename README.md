@@ -1,1 +1,1 @@
-# photoshopscripts
+# photoshop scripts
