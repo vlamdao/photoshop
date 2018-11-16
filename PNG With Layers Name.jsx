@@ -41,7 +41,7 @@ function groupSelectedLayers() {
 
 function savePNG(saveFile) {
     var pngOpts = new PNGSaveOptions;
-    pngOpts.compression = 9;
+    pngOpts.compression = 0;
     pngOpts.interlaced = false;
     activeDocument.saveAs(saveFile, pngOpts, true, Extension.LOWERCASE);
 }
